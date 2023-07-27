@@ -1,0 +1,26 @@
+body{
+    max-width: 30vw;
+    text-align: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: tomato; */
+    color: cornflowerblue;
+    padding:25px 0;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+ul,ol{
+    text-align: left;
+}
+h1,h2,h3{
+    color:orange;
+}
+a{
+    color:green;
+}
+a:hover{
+    color:orange;
+}
