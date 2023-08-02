@@ -1,0 +1,119 @@
+:root{
+    font-family: 'Dancing Script', cursive;
+    box-sizing: border-box;
+    font-size: 16px;
+    --main-text-color:black;
+    --secondary-text-color:white;
+    --main-background-color:#F6E3D4;
+    --secondary-background-color:#252525;
+    --form-label-color:#64ABE3;
+    background-color: var(--main-background-color,white);
+    letter-spacing: 2px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: cente; */
+    margin: 0 auto;
+    /* min-width: 1500px;. */
+    height: 100vh;
+}
+main{
+    display:flex;
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.odin{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.odin-image{
+    width: 50%;
+}
+.image{
+    /* height: 100%; */
+    width: 50%; 
+    background-image: url(benjamin-voros-AD6rn3vqG7o-unsplash.jpg); 
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image h1{
+    font-family: 'Lobster',cursive;
+    text-align: center;
+    color: var(--main-background-color,white);
+    font-size: 5rem;
+}
+.content{
+    padding:3rem;
+    width:50%;
+    /* background-color: ; */
+}
+.form-content-header{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.inputs-section>section{
+    display: flex;
+    margin: 25px 0;
+    /* padding:10px 0; */
+    gap:20px;
+}
+.inputs-section>section>section{
+    display: flex;
+    flex-flow: column nowrap;
+    flex:1 1 auto;
+}
+label{
+    text-transform: uppercase;
+    /* margin:20px 0; */
+    font-weight: 700;
+    color: var(--form-label-color);
+    /* font-weight: 700; */
+    letter-spacing: 2.5px;
+}
+input{
+    margin:10px 0;
+    /* width:80%; */
+    border-radius: 5px;
+    padding:5px;
+    background-color: #F9D199;
+    border:0px;
+    transition-duration: 0.3s;
+}
+input[type="submit"]{
+    width:fit-content;
+    padding:5px 20px;
+    color:var(--form-label-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+input:hover,input:focus{
+    outline: none !important;
+    border:3px solid var(--form-label-color);
+    padding:2px;
+}
+input[type="submit"]:hover,input[type="submit"]:focus{
+    outline: none !important;
+    padding:2px 17px;
+}
+.user-login p{
+    font-size: 2rem;
+}
