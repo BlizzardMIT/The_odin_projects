@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    box-shadow: 0 0 10px 1px rgb(80,80,80);
+    box-shadow: 0 0 10px 1px rgb(80, 80, 80);
     padding: 12px;
     border-radius: 16px;
     display: flex;
