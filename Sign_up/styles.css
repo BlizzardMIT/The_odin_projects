@@ -130,7 +130,7 @@ body {
   }
   .errorMessage {
     font-size: 25px;
-    font-weight: 900;
+    font-weight: 700;
     color: red;
   }
   
@@ -142,5 +142,5 @@ body {
     background-color: rgba(0, 0, 0, 0.178);
   }
   .odin-img {
-    width: 100%;
+    width: 50%;
   }
